@@ -1,45 +1,50 @@
 * {
     margin: 0;
     padding: 0;
+    
 }
 
 body {
-    width: 80%;
-    margin: 10% auto;
+    display: flex;
     background: rgb(255, 255, 255);
     background: linear-gradient(175deg, rgba(255, 255, 255, 1) 52%, rgba(255, 255, 255, 1) 63%, rgba(0, 0, 0, 0.4822303921568627) 100%);
-    box-sizing: border-box;
-    height: 50vh;
-
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
 }
 
-.tarjeta {
-    width: 94%;
-    box-sizing: border-box;
+.contenedor{
+    display: flex;
+    min-width: 700px;
+    justify-content: center;
+    
+    
 }
 
 .contenido {
-    display: flex;
-    height: 40vh;
-    border: 2px solid rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
+    width: 80%;
+    outline: 1px solid rgb(136, 136, 136);
+    max-width: 800px;
 
 }
 
-.logo {
+.nav {
     width: 100%;
     margin: 0 auto;
 }
 
 .metro {
-    margin: 1%;
+    margin: 3%;
+    width: 16%;
 }
 
 .bajar {
 
     margin-top: 10%;
     width: 60%;
-    margin-left: 15%;
+    margin-left: 18%;
 
 }
 
@@ -58,13 +63,96 @@ body {
 
 .item {
     margin: 15px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
 }
 
 .carrito {
     float: right;
+    width: 29%;
 }
 
+.medio{
+    display: flex;
+    width: 100%;
+}
+
+.tarjeta{
+    width: 40%;
+    margin: 3% 20%;
+}
+
+footer{
+    font-family: "Open Sans", sans-serif;
+    width: 80%;
+    padding-left: 6%;
+    font-weight: 600;
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+.imfooter{
+    width: 15%;
+    margin-left: 95%;
+    margin-top: -10%;
+    background-color: #D5FF43;
+    border-radius: 6%;
+    padding-bottom: 1%;
+}
+.imgfooter{
+        width: 80%;
+        margin-top: 16%;
+        margin-left: 9%;
+        margin-bottom: 2%;
+}
+.comprarf{
+    font-family: "Open Sans", sans-serif;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-bottom: 2%;
+    font-size: 11px;
+}
+.tarfooter{
+    padding-top: 1%;
+}
+.price{
+    margin-top: -10px;
+    font-size: 12px;
+}
 
 .lateral{
     background-color: black;
+    max-width: 60px;
+    width: 8%;
+    outline: 1px solid rgb(0, 0, 0);
+}
+
+.latcont{
+    margin: 0 auto;
+    height: 100%;
+}
+
+.latcont img{
+    margin: 35% 35%;
+    width: 30%;
+}
+.canletras{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 10px;
+    margin-top: 79%;
+    margin-bottom: 109%;
+
+
+}
+
+.cantidad{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 9px;
+    margin: 50% 0;
+}
+
+.imgbajo{
+    margin-top: 10%;
 }
